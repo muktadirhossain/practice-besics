@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    height: 15vh;
+    
+    padding-top: 30px;
+    background-color: bisque;
+    text-align: center;color: rgb(19, 198, 243);
+}
