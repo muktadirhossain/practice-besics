@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    max-width: 1250px;
+    
+}
+header{
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    /* margin-bottom: 150px; */
+}
+.main-header{
+    /* margin-top: 100px; */
+    padding-top: 100px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.hero-heading{
+    /* margin-top: 130px; */
+    padding-top: 60px;
+}
+.hero-heading h1{
+    font-weight: 300;
+    font-size: 45px;
+    color: #494949;
+    padding-bottom: 20px;
+}
+.hero-heading span {
+    color:#FF1F77;
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+}
+.hero-heading p{
+    font-size: 25px;
+    font-weight: 300;
+    color: #494949;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.hero-heading a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-image: linear-gradient(to right, #FF4690, #FF1E76);
+}
+.hero-image img{
+    max-width: 500px;
+    height: 500px;
+}
+/* =============section-2========= */
+.section-2{
+    background-image: url("images/biography-bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-bottom: 150px;
+    margin-top: 70px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.section-2 .heading-S2{
+    padding-top: 150px;
+}
+h2 .bio{
+    font-size: 45px;
+}
+.heading-S2 p{
+    padding-top: 25px;
+    font-size: 16px;
+    max-width: 500px; 
+}
+/* =============my portfolio section=========== */
+.portfolio-main{
+    background-image: url(images/latest-work-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+
+.portfolio-heading{
+    text-align: center;
+    padding: 50px 0 100px 0;
+    font-size: 45px;
+    color:#FF1F77;
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+}
+.my-portfolio{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+
+
+.my-work3,.my-work2,.my-work1{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+
+}
+.my-work3:hover,.my-work2:hover,.my-work1:hover{
+    box-shadow: 8px 8px 15px #88888841;
+    transition: 0.5s;
+    transform: scaleY(1.05);
+    
+}
